@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Please login with your user code:">
+  <meta name="description" content="Please login with your user code:                         :) Now, you have known the code.     fff">
 <meta property="og:type" content="website">
 <meta property="og:title" content="js integrate">
 <meta property="og:url" content="http://yoursite.com/beta-page/js-integrate.html">
 <meta property="og:site_name" content="Daniel Online">
-<meta property="og:description" content="Please login with your user code:">
+<meta property="og:description" content="Please login with your user code:                         :) Now, you have known the code.     fff">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/images/photo/1.jpg">
+<meta property="og:image" content="http://yoursite.com/images/photo/2.jpg">
 <meta property="article:published_time" content="2020-03-23T15:46:06.000Z">
-<meta property="article:modified_time" content="2020-03-26T19:10:21.900Z">
+<meta property="article:modified_time" content="2020-03-27T20:36:44.055Z">
 <meta property="article:author" content="Daniel Zou">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/photo/1.jpg">
 
 <link rel="canonical" href="http://yoursite.com/beta-page/js-integrate">
 
@@ -183,13 +186,22 @@
       
       
       <div class="post-body">
-          <h3 id="Please-login-with-your-user-code"><a href="#Please-login-with-your-user-code" class="headerlink" title="Please login with your user code:"></a>Please login with your user code:</h3><form name="loginForm" novalidate>
+          <h3 id="Please-login-with-your-user-code"><a href="#Please-login-with-your-user-code" class="headerlink" title="Please login with your user code:"></a>Please login with your user code:</h3><form name="loginForm" οnsubmit="return false;">
   <label class="item item-input item-icon-left item-login">
-    <input type="text" id="usercode" placeholder="please input your code" required />
-    <input type="button" id="codecheck" value="check" onclick="codecheck()"> </input>
+    <input type="text" id="usercode" placeholder="please input your code" required></input>
+    <input type="button" id="codecheck" value="check"> </input>
+    <input id='hiddeninput' type="hidden" style="display:none"></input>
+    <p id="content"> :) Now, you have known the code.</p>
+    <p id="encryptcontent">fff</p>
     </label>
 </form>
- <script type="text/javascript" src="/js/src/usercodecheck.js"></script>
+
+<form id="photos">
+  <img src="../../../images/photo/1.jpg" />
+  <img src="../../../images/photo/2.jpg" />
+</form>
+<script type="text/javascript" src="/js/src/usercodecheck.js"></script>
+
       </div>
       
       
