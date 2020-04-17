@@ -1621,6 +1621,7 @@ pre code {
 }
 .col-xs-6 {
   width: 50%;
+  background-color:rgba(0,0,0,0);
 }
 .col-xs-5 {
   width: 41.66666667%;
@@ -1951,6 +1952,7 @@ pre code {
   }
   .col-md-1 {
     width: 8.33333333%;
+    background-color:rgba(0,0,0,0);
   }
   .col-md-pull-12 {
     right: 100%;
@@ -5288,7 +5290,8 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color:rgba(0,0,0,0);
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
